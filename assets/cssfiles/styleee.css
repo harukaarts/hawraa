@@ -1,0 +1,50 @@
+@import url('./main.css');
+.nestedGrid2{
+    display:grid;
+     justify-content:center;
+    grid-template-columns:60%;
+     grid-template-rows: 1fr;
+  }
+  .nestedGrid2 > *{
+    border: 2px solid rgb(201, 200, 197);
+    background-color: rgb(123,141,156);
+
+ 
+  }
+   
+  .cardimage{
+      justify-content:center;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(229, 233, 233);
+  }
+  .cardimage h3{
+     
+  color:rgb(253,184,59);
+}
+.cardimage p{
+  color: black;
+}
+   .cardimage img{
+     justify-content: center;
+    width:20%;
+    border-radius: 1000px;
+    border: 5px solid rgb(253,184,59);
+   }
+   .cardimage blockquote{
+    text-decoration-line: underline;
+    }
+  
+    .content{
+        grid-area: main;
+      }
+      .meditems{
+        display:flex ;
+      }
+      .meditems{
+        list-style:none;
+        margin: 10px 11px;
+        
+      } 
+    
+     

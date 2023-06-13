@@ -1,0 +1,43 @@
+ 
+  nav {
+      display:flex;
+       /*background-color:gray;*/
+      height: 160px;
+      justify-content: center;
+
+  }
+  .uitems{
+      display:flex;
+  }
+  .uitems li{
+      list-style:none;
+      margin: 2px 2px;
+  }
+  .uitems li a{
+      text-align:center ;
+      text-decoration:none ;
+      color: aliceblue;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  .nitems{
+       
+      background-color:rgb(253,184,59) ;
+      
+      border-radius: 20px;
+      padding:10px;
+      margin:30px 11px;
+  }
+  .nitems:hover{
+      background-color:rebeccapurple;
+  }
+.logo{
+  display:flex ;
+ padding: 10px;
+  color:rgb(31, 32, 32);
+   letter-spacing:1px ;
+   box-sizing: content-box;
+  background-image:url(' ../imagess/logopic.png');
+  width:120px;
+  height:120px ;
+   background-size:cover;
+}

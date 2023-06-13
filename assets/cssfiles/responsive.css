@@ -1,0 +1,52 @@
+.container{
+   display:grid;
+   grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 250px 600px;
+  /* border: 2px solid yellow;*/
+     /* Use grid-template-area to create a mobile layout where each named space occupies its own row */
+   grid-template-areas:
+   "hd"
+   "main"
+   "ft";
+   }
+   /* add css for nested grid here */
+.nestedGrid{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-template-rows: 50% 50%;
+ }
+ .nestedGrid > *{
+   border: 2px solid rgb(253,184,59);
+ }
+ .box{
+     border: 1px solid 0000;
+     background: 0000;
+     }
+ 
+   .header{
+     grid-area:hd;
+   }
+   .footer{
+     grid-area: ft;  
+   }
+    
+   .content{
+     grid-area: main;
+   }
+ 
+ /* big Screen  */
+ @media(min-width:900px){
+ .container{
+       display:grid;
+       grid-template-columns: 300px 300px 300px;
+       grid-template-rows: 250px 600px;
+       grid-template-areas: 
+       "hd hd hd hd hd hd hd hd"
+       "main main main main main main main main"
+       "ft ft ft ft ft ft ft ft";
+      /* border: 2px solid red;*/
+   }
+ }
+
+
+   

@@ -1,0 +1,15 @@
+ 
+ #footbox{
+    display:flex;
+    width:100%;
+    background-color:rgb(253,184,59) ;
+    text-align: center;
+   justify-content: center;
+     
+}
+#footbox p{
+    color: aliceblue;
+    font-family:monospace;
+    text-align: center;
+       
+}
